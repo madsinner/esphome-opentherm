@@ -4,6 +4,7 @@ import esphome.codegen as cg
 from esphome.const import CONF_ID
 
 from . import const, schema
+#include <OpenTherm.h>
 
 opentherm_ns = cg.esphome_ns.namespace("esphome::opentherm")
 OpenthermHub = opentherm_ns.class_("OpenthermHub", cg.Component)
